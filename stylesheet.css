@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Lucida Grande;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rebeccapurple;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+    margin: 13px 0 0 60px;
+    font-size: 32px;
+    color: white;
+}
+
+.header-right {
+    float: right;
+    margin-right: 100px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 30px 0 30px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.animasi {
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 23s;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    6.25%  {color: yellow;}
+    12.5%  {color: blue;}
+    18.75% {color: green;}
+    25%   {color: rgb(255, 166, 0);}
+    31.25%  {color: rgb(138, 138, 45);}
+    37.5%  {color: rgb(0, 174, 255);}
+    43.75% {color: rgb(21, 128, 0);}
+    50% {color: rgb(30, 255, 0);}
+    56.25%  {color: rgb(0, 255, 98);}
+    62.5%  {color: rgb(234, 0, 255);}
+    68.75% {color: rgb(128, 0, 70);}
+    75%   {color: rgb(0, 255, 21);}
+    81.25%  {color: rgb(0, 204, 255);}
+    87.5%  {color: rgb(174, 0, 255);}
+    93.75% {color: rgb(128, 0, 53);}
+    100% {color: rgb(200, 255, 0);}
+  }
+
+.top-wrapper {
+    padding: 50px 210px 0 0;
+    color: black;
+    text-align: center;
+}
+
+.top-wrapper img {
+    float: left;
+    width: 450px;
+    margin-left: 180px;
+}
+
+.h-one {
+    margin-bottom: -10px;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.p-two {
+    margin-bottom: 20px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: orangered;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin: 0 10px 0 -10px;
+}
+
+.twiiter {
+    background-color: #55acee;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+.body {
+    padding: 0 5% 200px 5%;
+    text-align: center;
+}
+
+.contents {
+    height: 450px;
+    margin-top: 100px;
+
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents-item {
+    float: left;
+    width: 25%;
+}
+
+.contents-item img {
+    width: 250px;
+}
+
+.contents-item p {
+    font-size: 24px;
+    top: 44%;
+    width: 100%;
+    color: black;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.footer {
+    background-color: rebeccapurple;
+    color: #fff;
+    height: 100px;
+    padding: 0 40px;
+    opacity: 0.9;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.footer-list {
+    float: right;
+    margin-right: 40px;
+}
+
+.footer-list li {
+    list-style: none;
+    margin-bottom: 3px;
+}
